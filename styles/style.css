@@ -1,0 +1,205 @@
+
+@font-face {
+    font-family: 'Cecilia';
+    src: url(granaina-limpia.ttf);
+}
+
+
+*
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000;
+}
+
+a
+
+{
+    text-decoration: none;
+}
+
+body
+
+{
+    background: #efe8dd;
+}
+
+/* NOME DA ESCRITORA */
+
+
+.name
+
+{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.name img
+{
+    width: 20px;
+    height: 20px;
+}
+
+.cecilia
+
+{
+    font-family: 'Cecilia', Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: clamp(28px, 2vh + 2vw, 46px);
+}
+
+
+/* NOME DO LIVRO */
+
+.book
+
+{
+    width: 70%;
+    border-bottom: 2px dashed black;
+}
+
+.book p
+
+{
+    font-family: 'Cecilia', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: clamp(30px, 5vh + 5vw, 120px);
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+
+/* CARDs */
+
+.all
+
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cards
+
+{
+    width: 90%;
+    flex-wrap: wrap;
+    padding: 50px 90px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.estrutura
+
+{
+    padding: 5px 0;
+    cursor: pointer;
+    border-radius: 55px;
+    background: #edddc2;
+    margin: 20px 50px;
+    transition: .3s ease-in-out;
+}
+
+.estrutura:hover
+
+{
+    scale: 1.05;
+}
+
+.card
+
+{
+    position: relative;
+    width: 330px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.romanceiro, .romanceiro1
+
+{
+    text-align: center;
+    font-family: 'Cecilia', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    width: 100%;
+    height: 45px;
+    padding: 15px;
+}
+
+.romanceiro
+
+{
+    border-bottom: 1px solid black;
+}
+
+.romanceiro1
+
+{
+    border-top: 1px solid black;
+}
+
+.content
+
+{
+    height: 80%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Cecilia', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: clamp(30px, 10vh + 10vw, 50px);
+}
+
+.h1
+
+{
+    font-family: 'Cecilia', Arial, Helvetica, sans-serif;
+    margin: 30px;
+    margin-left: 25%;
+    font-size: clamp(35px, 2vh + 2vw, 43px);
+}
+
+.center
+
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text
+
+{
+    display: flex;
+    justify-content: center;
+    font-size: clamp(14px, 2vh + 2vw, 18px);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.text p
+
+{
+    line-height: 22px;
+    width: 410px;
+    background: #edddc2;
+    border: 1px solid #d1c4ae;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
